@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.Scanner;
 public class Klasa0 {
     int zmiennai;
@@ -11,14 +12,6 @@ public class Klasa0 {
         zmiennai=scan.nextInt();
         zmiennas=scan.nextLine();
 
-
     }
-    void wczytajDane(){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Podaj zmienną");
-        zmiennad= scan.nextDouble();
-        zmiennai=scan.nextInt();
-        zmiennas=scan.nextLine();
 
-    }
 }
