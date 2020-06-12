@@ -10,7 +10,7 @@ public class Obliczenia {
     long start= System.nanoTime();
 
 
-    System.out.println("Program losuje" + ilosc_liczb + "liczb całkowitych od 0 do 99");
+    System.out.println("Program losuje " + ilosc_liczb + " liczb całkowitych od 0 do 99");
     System.out.println("a następnie znajduje najmniejszą i największą");
     System.out.println("oraz oblicza średnią ze wszystkich wylosowanych liczb.");
 
@@ -38,6 +38,7 @@ public class Obliczenia {
     System.out.println("średnia = " + suma/ilosc_liczb);
     long stop= System.nanoTime();
     System.out.println("Czas wykonania [w nanosekundach] :" + (stop-start));
+    System.out.println("____________________________________________________________________________");
 
 
 
