@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Klasa0 klasa00 =new Klasa0();
         klasa00.wczytajZmienna();
-
+         
 
     }
 }
