@@ -1,4 +1,18 @@
-package com.company;
+package com.company.Decorator;
 
-public class BookWithNormalCover {
+import com.company.Exceptions.CoverException;
+
+public class BookWithNormalCover extends Decorations{
+
+    String dec = "Book with normal cover";
+
+    public BookWithNormalCover(Publications p) throws CoverException {
+        super(p);
+        p.setCover(dec);
+    }
+
+    @Override
+    public String toString() {
+        return super.ksi.toString()  + " | " + this.dec;
+    }
 }
