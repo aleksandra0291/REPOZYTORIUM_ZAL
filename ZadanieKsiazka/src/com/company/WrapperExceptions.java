@@ -1,4 +1,7 @@
-package com.company;
+package com.company.Exceptions;
 
-public interface WrapperExceptions {
+public class WrapperException extends Exception {
+    public WrapperException(String message) {
+        super(message);
+    }
 }
